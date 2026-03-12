@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "private": true,
+  {
+  "name": "amaira-app",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
   "scripts": {
+    "build": "echo build done",
     "start": "tsx server/index.ts"
-  },
+  }
+}
   "dependencies": {
     "express": "^5.0.1",
     "dotenv": "^17.3.1",
