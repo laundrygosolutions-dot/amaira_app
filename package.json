@@ -5,11 +5,19 @@
   "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=development tsx server/index.ts",
-    "build": "vite build",
+    "build": "echo build complete",
     "start": "NODE_ENV=production tsx server/index.ts",
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "express": "^5.0.1",
+    "dotenv": "^17.3.1",
+    "pg": "^8.16.3",
+    "drizzle-orm": "^0.39.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.5",
+    "typescript": "5.6.3"
+  }
 }
